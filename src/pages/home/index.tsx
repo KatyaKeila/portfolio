@@ -32,12 +32,14 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Sobre mim{" "}
             </Text>
             <Text type="body1" color="grey6">
               Sou estudante full stack em formação na Kenzie Academy Brasil, participei
               de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades.
+              desenvolvendo habilidades. Possuo conhecimentos em HTML, CSS, JavaScript, React, 
+              NodeJs, TypeScript, Python,Django, DjangoRestFramework, ORM, PostgreSQL, Github, 
+              Banco de dados SQL. Possuo conhecimentos, vivências em metodologias ágeis SCRUM, Trello.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -87,11 +89,11 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
+                Desenvolvendo habilidades com{" "}
                 <Text as="span" color="brand1" type="heading2">
                   dedicação
                 </Text>{" "}
-                em cada detalhe
+                em cada projeto
               </Text>
               <Project />
             </ProjectsAreaContent>
